@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>lms-schedule</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --link: #0969da; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0d1117; --fg: #e6edf3; --muted: #9198a1; --link: #4493f8; } }
+  body { background: var(--bg); color: var(--fg); font: 16px/1.65 system-ui, -apple-system, "Segoe UI", "Noto Sans KR", sans-serif; max-width: 680px; margin: 0 auto; padding: 40px 16px; }
+  h1 { font-size: 28px; margin: 0 0 8px; }
+  p.lead { color: var(--muted); margin-top: 0; }
+  a { color: var(--link); }
+  ul { padding-left: 20px; }
+</style>
+</head>
+<body>
+<h1>lms-schedule</h1>
+<p class="lead">A personal tool that copies course deadlines from Hanyang University's LMS into the owner's own Google Calendar.</p>
+
+<p>lms-schedule은 한양대학교 LMS(learning.hanyang.ac.kr)의 과제·시험·출석 마감을 사용자 본인의 Google 캘린더에 일정으로 넣어 주는 <strong>개인용</strong> 도구입니다. 제작자 본인의 계정에서만 사용하며, 일반에 배포하거나 판매하지 않습니다.</p>
+
+<h2>하는 일</h2>
+<ul>
+  <li>사용자 본인의 PC에서 LMS의 과제·공지·학습 항목을 읽어 마감 일정을 정리합니다.</li>
+  <li>Google Calendar API로 사용자가 지정한 캘린더 하나(HY-LMS)에만 일정을 만들고, 고치고, 지웁니다.</li>
+  <li>다른 캘린더와 사용자가 직접 만든 일정은 읽거나 바꾸지 않습니다.</li>
+</ul>
+
+<p><a href="privacy.html">개인정보처리방침 (Privacy Policy)</a></p>
+<p>문의: <a href="https://github.com/Gudals0320">github.com/Gudals0320</a></p>
+</body>
+</html>
